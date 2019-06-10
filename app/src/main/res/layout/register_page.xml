@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/etr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your email"/>
+    <EditText
+        android:id="@+id/etr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name"/>
+    <EditText
+        android:id="@+id/etr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your password"/>
+
+</LinearLayout>

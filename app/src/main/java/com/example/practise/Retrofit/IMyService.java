@@ -11,4 +11,9 @@ public interface IMyService {
     Observable<String> registerUser(@Field("email") String email,
                                     @Field("name") String name,
                                     @Field("password") String password);
+
+    @POST("login")
+    @FormUrlEncoded
+    Observable<String> registerUser(@Field("email") String email,
+                                    @Field("password") String password);
 }
